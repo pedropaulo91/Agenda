@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_enviar_notas"
+        android:title="Enviar notas"
+        android:icon="@drawable/ic_cloud_upload_white_24dp"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_baixar_provas"
+        android:title="Baixar provas"
+        android:icon="@drawable/ic_cloud_download_white_24dp"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/menu_mapa"
+        android:title="Visualizar no Mapa"
+        android:icon="@drawable/ic_globe_white_24dp"
+        app:showAsAction="always"
+        />
+
+
+</menu>
